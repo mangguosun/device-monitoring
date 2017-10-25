@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.dunn.test.LoginEvent">
+   <children>
+      <TextField fx:id="username" layoutX="66.0" layoutY="42.0" promptText="帐号" />
+      <TextField fx:id="password" layoutX="66.0" layoutY="89.0" promptText="密码" />
+      <Button layoutX="95.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#login" text="登录" />
+   </children>
+</Pane>
